@@ -1,0 +1,90 @@
+# Gillions Game Sync Testing
+
+Public, opt-in experimental releases of **Gillions Game Sync Testing**.
+This distribution repository contains documentation, the Dalamud custom feed,
+checksums and release assets—not a second source-code fork.
+
+[Authoritative source](https://github.com/anndrox/GillionsGameSync) ·
+[Testing releases](https://github.com/anndrox/GillionsGameSync-Testing/releases) ·
+[Report a bug](https://github.com/anndrox/GillionsGameSync-Testing/issues)
+
+## Install
+
+1. Disable installed Gillions Game Sync Public and any dev copies. Keep its
+   configuration, pairing and Stable repository entry; do not reset anything.
+2. In Dalamud Settings → Experimental → Custom Plugin Repositories, add:
+
+   `https://raw.githubusercontent.com/anndrox/GillionsGameSync-Testing/main/data/GillionsGameSyncTesting.json`
+
+3. Open the plugin installer, refresh repositories and install **Gillions Game
+   Sync Testing**. Confirm channel Testing, version0.0.88.0 and `/gillionssynctest`.
+4. Existing Testing users first disable/uninstall only the old Testing plugin,
+   without reset/delete-configuration, then remove its old feed and install from
+   the new one. Follow any normal installer reload prompt. Dalamud binds updates
+   to the installed-from URL, so a URL change alone is insufficient. Keep Stable
+   and all settings; no config copying is needed.
+
+The standard Dalamud installer delivers subsequent Testing updates through this
+same feed. No custom updater or manual DLL replacement is required. Historical
+Testing releases/old feed remain preserved, but this repository is the new channel.
+
+## One enabled copy; separate settings
+
+Public uses `GillionsGameSync`; Testing uses `GillionsGameSyncTest`. They have
+separate configuration/pairing files and commands. Both can remain installed,
+but **do not run both simultaneously**: duplicate reads/uploads are possible.
+Testing88 has separate saved window IDs, preserving Public geometry. Older
+Testing geometry stays retained but is not imported; Testing uses readable
+defaults. Simultaneous live operation is not supported.
+
+To return, disable Testing before enabling your installed Public release. You may
+remove this feed and uninstall only Testing. Never delete/reset Public configuration.
+Normal Testing updates preserve Testing settings/history. Testing configuration
+deletion is a separate user choice, not an installation or migration requirement.
+
+## Offline first; TEST access is separate
+
+Public distribution does **not** grant access to the Gillions Site TEST service.
+UI and local Hunt Progress can be checked unpaired/offline. No account or upload
+permission is required for those checks. Testers with separately approved secure
+TEST access may pair Testing using its existing controls and applicable consents.
+Do not copy Public credentials or pair this build to production.
+
+If an older Testing configuration still points to production, use **Settings →
+Advanced → Testing diagnostics → Use shared TEST for next pairing** before
+pairing, and only if you have approved TEST access. Existing production-bound
+Testing credentials remain inactive; they are not moved or deleted.
+
+All Testing authenticated requests—including ordinary sync and commands—are
+restricted to the existing exact HTTPS TEST service, with redirects disabled.
+Historical Testing production pairing/history is preserved but inactive; it is
+not moved to TEST. Public pairing is untouched. No new production API admission,
+gameplay automation or contribution permission is introduced.
+
+## Initial Testing88 contents and limits
+
+Readable, resizable Main/Settings/Pairing windows, clear reconnect instructions
+and honest current-area/unknown Hunt Progress messages share the frozen Public
+1.0.31.3 implementation. This separately compiled Testing DLL is not that Public
+binary. Existing Testing diagnostics and independently gated features remain.
+
+Current TEST FATE exact-version admission includes86/87, not88: FATE contribution
+therefore stays unavailable/fail-closed until separately authorized admission.
+Other online features need their existing compatible acknowledgements and consent.
+Most community testers should use offline UI testing until granted TEST access.
+
+Automated package, actual-serializer and policy checks do not establish physical
+FFXIV acceptance. Initial fresh installation/update, placement/input and shared-UI
+runtime acceptance remain owner live checks; controller/live FC submarine limits
+remain disclosed. This is an experimental prerelease, not Stable promotion.
+
+## Quick test and bug report
+
+Resize/move Main and Settings; shorten them to check scrolling; close/reopen to
+check geometry persistence. Check mouse/keyboard/chat. Inspect `pair` without
+submitting a code. Optionally enable local Hunt Progress and inspect its lock and
+unknown/current-area wording; do not manufacture kills or enable extra sharing.
+
+Report Testing version, a short safe support summary and cropped screenshots.
+Do not post configuration, credentials, pairing codes, raw private exports or
+identifying activity logs. Consult the release changelog for known limitations.

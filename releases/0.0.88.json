@@ -1,0 +1,20 @@
+{
+  "channel": "Testing",
+  "product": "GillionsGameSyncTest",
+  "version": "0.0.88.0",
+  "tag": "v0.0.88-testing",
+  "sourceRepository": "https://github.com/anndrox/GillionsGameSync",
+  "sourceBranch": "codex/game-sync/public-testing-channel",
+  "sourceCommit": "d2064868ac4dbdcb854f40fde47ffa1eac2ce001",
+  "sourceUrl": "https://github.com/anndrox/GillionsGameSync/tree/d2064868ac4dbdcb854f40fde47ffa1eac2ce001",
+  "artifactUrl": "https://github.com/anndrox/GillionsGameSync-Testing/releases/download/v0.0.88-testing/GillionsGameSyncTesting-0.0.88.zip",
+  "zipSha256": "b7d23dc9a32b9cd7093cb9d0264b110b26b68a0c015b597ada3408bc65d119fc",
+  "dllSha256": "1aae28d35c237b5ff1dbb238b826e4626e719a341c478d34be6509a43117a5d8",
+  "feedSha256": "bdc6035f89a243eb323e6c5b196c7d7d0a9d8fc21d277cd5cdf0b98fb71ee06d",
+  "embeddedManifestSha256": "4a4a4503e5b202648a4299c9d4e2c22a44ffddc9a41611fc631f8b2118efaaf4",
+  "dalamudApiLevel": 15,
+  "independentSecurityPrivacy": "accepted, no blockers",
+  "independentCompatibility": "accepted, no blockers",
+  "physicalFfxivAcceptance": "outstanding",
+  "distributionTagMeaning": "The tag identifies distribution metadata; sourceCommit identifies the separately maintained plugin source."
+}
