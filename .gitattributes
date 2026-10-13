@@ -1,0 +1,2 @@
+# Publish the reviewed feed bytes exactly; do not normalize its line endings.
+data/GillionsGameSyncTesting.json -text whitespace=cr-at-eol
