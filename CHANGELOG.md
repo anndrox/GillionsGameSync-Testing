@@ -1,5 +1,22 @@
 # Testing changelog
 
+## 0.0.90.0 — 7.57 hotfix compatibility (experimental prerelease)
+
+- Supports game 2026.10.16.0000.0000 with Dalamud 15.0.3.9 (ClientStructs
+  7.57.0.9414) through one per-collector compatibility table; unlisted runtimes
+  fail closed and one collector's support never enables another.
+- Hunt Progress is physically accepted on this runtime. Submarine reads are
+  source qualified but not physically tested. FATE collection, Hunt-routing
+  location and private uploads await Gillions TEST admission of the new runtime
+  and reference data; they stay unavailable until then.
+- Includes collectible readiness: Collectibles are withheld while native sources
+  are unavailable instead of being reported as complete-empty.
+- Consent, permissions, pairing, settings and payloads are unchanged; the update
+  from 0.0.88 preserves configuration (actual-serializer check).
+
+Source: anndrox/GillionsGameSync `1aeafe68190e052d72129fa7a68a4a9a1cc5a0d9`.
+Release record: [releases/0.0.90.json](releases/0.0.90.json).
+
 ## 0.0.88.0 — experimental prerelease
 
 - Establishes this dedicated public Testing distribution and normal Dalamud feed.

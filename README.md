@@ -17,7 +17,7 @@ checksums and release assets—not a second source-code fork.
    `https://raw.githubusercontent.com/anndrox/GillionsGameSync-Testing/main/data/GillionsGameSyncTesting.json`
 
 3. Open the plugin installer, refresh repositories and install **Gillions Game
-   Sync Testing**. Confirm channel Testing, version0.0.88.0 and `/gillionssynctest`.
+   Sync Testing**. Confirm channel Testing, version0.0.90.0 and `/gillionssynctest`.
 4. Existing Testing users first disable/uninstall only the old Testing plugin,
    without reset/delete-configuration, then remove its old feed and install from
    the new one. Follow any normal installer reload prompt. Dalamud binds updates
@@ -60,6 +60,25 @@ restricted to the existing exact HTTPS TEST service, with redirects disabled.
 Historical Testing production pairing/history is preserved but inactive; it is
 not moved to TEST. Public pairing is untouched. No new production API admission,
 gameplay automation or contribution permission is introduced.
+
+## Testing90 contents and limits
+
+Testing 0.0.90.0 supports the 7.57 hotfix runtime: game `2026.10.16.0000.0000`
+with Dalamud 15.0.3.9 (ClientStructs 7.57.0.9414). Every patch-sensitive collector
+is checked against its own exact compatibility entry; other runtimes fail closed.
+
+- **Hunt Progress:** physically accepted on this runtime by the owner. Bills,
+  target counts and zone changes matched the in-game Hunt log.
+- **Submarines:** source qualified, not yet physically tested on this runtime.
+- **FATE:** collection waits for Gillions TEST admission of the new source. Until
+  then it stays unavailable, and no FATEs are read or contributed.
+- **Hunt-routing location:** stays off unless separately consented. Its upload, the
+  private Hunt/submarine uploads and their reference data also wait for Site
+  admission of the new game version.
+
+Consent, permissions, pairing and settings are unchanged; updating from 0.0.88
+preserves them. Source, package and serializer checks are not physical proof for
+features that have not been run in the game.
 
 ## Initial Testing88 contents and limits
 
