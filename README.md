@@ -17,7 +17,7 @@ checksums and release assets—not a second source-code fork.
    `https://raw.githubusercontent.com/anndrox/GillionsGameSync-Testing/main/data/GillionsGameSyncTesting.json`
 
 3. Open the plugin installer, refresh repositories and install **Gillions Game
-   Sync Testing**. Confirm channel Testing, version 0.0.91.0 and `/gillionssynctest`.
+   Sync Testing**. Confirm channel Testing, version 0.0.92.0 and `/gillionssynctest`.
 4. Existing Testing users first disable/uninstall only the old Testing plugin,
    without reset/delete-configuration, then remove its old feed and install from
    the new one. Follow any normal installer reload prompt. Dalamud binds updates
@@ -60,6 +60,23 @@ restricted to the existing exact HTTPS TEST service, with redirects disabled.
 Historical Testing production pairing/history is preserved but inactive; it is
 not moved to TEST. Public pairing is untouched. No new production API admission,
 gameplay automation or contribution permission is introduced.
+
+## Testing 0.0.92 contents and limits
+
+Testing 0.0.92.0 names every Gillions refusal instead of showing "Gillions
+unavailable":
+- **Character not linked on Gillions:** add the character on the website in
+  Preferences, for example from the Lodestone.
+- **Paired to a different character:** pair again while playing this character.
+- **Reconnect required.**
+- **Refused by Gillions.**
+
+A one-time in-game chat notice explains the character problems. Finishing a
+reconnect from Settings no longer opens a second window.
+
+Everything else, including native compatibility, consent and pairing, is
+unchanged from 0.0.91. There is no physical in-game test of the 0.0.92
+corrections. Release record: [releases/0.0.92.json](releases/0.0.92.json).
 
 ## Testing 0.0.91 contents and limits
 

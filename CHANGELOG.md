@@ -1,5 +1,22 @@
 # Testing changelog
 
+## 0.0.92.0 — Gillions refusals named (experimental prerelease)
+
+- A refusal from Gillions is never shown as "Gillions unavailable". The
+  connection says one of:
+  - Character not linked on Gillions;
+  - Paired to a different character;
+  - Reconnect required;
+  - Refused by Gillions.
+- A one-time in-game chat notice explains how to fix the character problems.
+- Finishing a reconnect started from Settings returns to Settings instead of
+  opening a second window.
+- Everything else is unchanged. The update from 0.0.91 preserves configuration
+  (checked with the real serializer). No physical in-game testing.
+
+Source: anndrox/GillionsGameSync `ac5920e6b72ec7d016fe2680bd54f890485176da`.
+Release record: [releases/0.0.92.json](releases/0.0.92.json).
+
 ## 0.0.91.0 — regression audit and accurate status (experimental prerelease)
 
 - Each feature row says what is actually wrong:
