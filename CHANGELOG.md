@@ -1,5 +1,17 @@
 # Testing changelog
 
+## 0.0.93.0 — quieter Retainer uploads (experimental prerelease)
+
+- Retainer data is sent when it changes, or when venture results are waiting,
+  plus a 5-minute "still current" refresh, instead of every 30 seconds. An
+  unchanged hour now sends 12 times instead of about 120.
+- Sync now still sends everything immediately.
+- Everything else is unchanged. The update from 0.0.92 preserves configuration
+  (checked with the real serializer). No physical in-game testing.
+
+Source: anndrox/GillionsGameSync `032544a132aa2bc20fa3cc1f0fab17bb3e3d40ab`.
+Release record: [releases/0.0.93.json](releases/0.0.93.json).
+
 ## 0.0.92.0 — Gillions refusals named (experimental prerelease)
 
 - A refusal from Gillions is never shown as "Gillions unavailable". The

@@ -3,7 +3,7 @@
     "Author": "Gillions",
     "Name": "Gillions Game Sync Testing",
     "InternalName": "GillionsGameSyncTest",
-    "AssemblyVersion": "0.0.92.0",
+    "AssemblyVersion": "0.0.93.0",
     "Description": "Opt-in experimental Gillions Game Sync. Separate TEST pairing only; keep Public disabled while Testing is enabled.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/anndrox/GillionsGameSync-Testing",
@@ -20,11 +20,11 @@
     "Punchline": "Opt-in experimental Gillions Game Sync.",
     "AcceptsFeedback": true,
     "IconUrl": "https://raw.githubusercontent.com/anndrox/GillionsGameSync/main/assets/GillionsGameSync-icon-v4.png",
-    "DownloadLink": "https://github.com/anndrox/GillionsGameSync-Testing/releases/download/v0.0.92-testing/GillionsGameSyncTesting-0.0.92.zip",
-    "DownloadLinkInstall": "https://github.com/anndrox/GillionsGameSync-Testing/releases/download/v0.0.92-testing/GillionsGameSyncTesting-0.0.92.zip",
-    "DownloadLinkUpdate": "https://github.com/anndrox/GillionsGameSync-Testing/releases/download/v0.0.92-testing/GillionsGameSyncTesting-0.0.92.zip",
-    "DownloadLinkTesting": "https://github.com/anndrox/GillionsGameSync-Testing/releases/download/v0.0.92-testing/GillionsGameSyncTesting-0.0.92.zip",
+    "DownloadLink": "https://github.com/anndrox/GillionsGameSync-Testing/releases/download/v0.0.93-testing/GillionsGameSyncTesting-0.0.93.zip",
+    "DownloadLinkInstall": "https://github.com/anndrox/GillionsGameSync-Testing/releases/download/v0.0.93-testing/GillionsGameSyncTesting-0.0.93.zip",
+    "DownloadLinkUpdate": "https://github.com/anndrox/GillionsGameSync-Testing/releases/download/v0.0.93-testing/GillionsGameSyncTesting-0.0.93.zip",
+    "DownloadLinkTesting": "https://github.com/anndrox/GillionsGameSync-Testing/releases/download/v0.0.93-testing/GillionsGameSyncTesting-0.0.93.zip",
     "DownloadCount": 0,
-    "LastUpdate": 1792842973
+    "LastUpdate": 1792871076
   }
 ]
