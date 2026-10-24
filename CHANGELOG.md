@@ -1,5 +1,18 @@
 # Testing changelog
 
+## 0.0.94.0 — grouped inventory uploads (experimental prerelease)
+
+- During heavy gathering or crafting, inventory uploads are grouped: at most
+  one per 10 seconds, and a change is held for at most about 10 seconds. That
+  is about 41% fewer during activity.
+- An isolated change still uploads after 1.5 seconds, and Sync now still
+  uploads immediately.
+- Everything else is unchanged. The update from 0.0.93 preserves configuration
+  (checked with the real serializer). No physical in-game testing.
+
+Source: anndrox/GillionsGameSync `f1866ecefbdc56b87f2aca29b567b9c95996a57b`.
+Release record: [releases/0.0.94.json](releases/0.0.94.json).
+
 ## 0.0.93.0 — quieter Retainer uploads (experimental prerelease)
 
 - Retainer data is sent when it changes, or when venture results are waiting,
