@@ -1,0 +1,38 @@
+{
+  "channel": "Testing",
+  "product": "GillionsGameSyncTest",
+  "version": "0.0.91.0",
+  "tag": "v0.0.91-testing",
+  "sourceRepository": "https://github.com/anndrox/GillionsGameSync",
+  "sourceBranch": "main",
+  "sourceCommit": "020cce9e6aaaa68f4225a370d3a52da62a363a8c",
+  "sourceUrl": "https://github.com/anndrox/GillionsGameSync/tree/020cce9e6aaaa68f4225a370d3a52da62a363a8c",
+  "artifactUrl": "https://github.com/anndrox/GillionsGameSync-Testing/releases/download/v0.0.91-testing/GillionsGameSyncTesting-0.0.91.zip",
+  "zipSha256": "8a5fefc7320982fe7a5322b8d44c8d86e86d6ff85764e6082b4cbe31e35748de",
+  "dllSha256": "72ca1bdad63440919cc96a80e878e48b3a6ac76be12f4bd71bcd7fb06a57e38c",
+  "feedSha256": "f8b601de9aaf6bf17baa515cd3a6a4df6c4deb5f6fba81491c40ea3ec3046903",
+  "embeddedManifestSha256": "4e3c89e5ac991eeda4413bfb17005ef5f967950bf3dd39d2c02624c0af80a89c",
+  "dalamudApiLevel": 15,
+  "runtime": {
+    "game": "2026.10.16.0000.0000",
+    "dalamud": "15.0.3.9",
+    "dalamudRevision": "30509c3b4fd00edd9a3d65b7bbf16433d84be03b",
+    "clientStructs": "7.57.0.9414",
+    "clientStructsRevision": "dd57986b8287e7c6ed9c27198f8c76cb04a81dfe"
+  },
+  "sourcePullRequests": [
+    "https://github.com/anndrox/GillionsGameSync/pull/11",
+    "https://github.com/anndrox/GillionsGameSync/pull/12",
+    "https://github.com/anndrox/GillionsGameSync/pull/13"
+  ],
+  "independentReview": "separate-context review of the regression-audit change: no blockers; four should-fix findings and label nits corrected before merge",
+  "reproducibility": "two package builds from the source commit produced a byte-identical ZIP",
+  "physicalFfxivAcceptance": {
+    "thisVersion": "none; source, synthetic, real-serializer and packaged tests only",
+    "hunt": "0.0.90 owner acceptance of Hunt Progress on this runtime; native Hunt reads unchanged in 0.0.91",
+    "submarine": "source qualified; not physically tested",
+    "fate": "pending Gillions admission of the 2026.10.16 source",
+    "travel": "not exercised; consent OFF by default"
+  },
+  "distributionTagMeaning": "The tag identifies distribution metadata; sourceCommit identifies the separately maintained plugin source."
+}

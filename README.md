@@ -17,7 +17,7 @@ checksums and release assets—not a second source-code fork.
    `https://raw.githubusercontent.com/anndrox/GillionsGameSync-Testing/main/data/GillionsGameSyncTesting.json`
 
 3. Open the plugin installer, refresh repositories and install **Gillions Game
-   Sync Testing**. Confirm channel Testing, version0.0.90.0 and `/gillionssynctest`.
+   Sync Testing**. Confirm channel Testing, version 0.0.91.0 and `/gillionssynctest`.
 4. Existing Testing users first disable/uninstall only the old Testing plugin,
    without reset/delete-configuration, then remove its old feed and install from
    the new one. Follow any normal installer reload prompt. Dalamud binds updates
@@ -60,6 +60,34 @@ restricted to the existing exact HTTPS TEST service, with redirects disabled.
 Historical Testing production pairing/history is preserved but inactive; it is
 not moved to TEST. Public pairing is untouched. No new production API admission,
 gameplay automation or contribution permission is introduced.
+
+## Testing 0.0.91 contents and limits
+
+Testing 0.0.91.0 makes each feature's status say what is actually wrong:
+- an unsupported game version;
+- Off, or Off on Gillions;
+- Not available on Gillions;
+- waiting for data;
+- temporarily unavailable;
+- ready.
+
+It also fixes command, sync, save and retainer reliability problems found by a
+whole-plugin regression audit, and includes the native observation integrity
+work: unavailable inventory, currency, gil and character data are withheld,
+never sent as empty.
+
+- **Runtime and native compatibility:** unchanged from 0.0.90 (game
+  `2026.10.16.0000.0000`, Dalamud 15.0.3.9).
+- **Physical testing:** none for this version. The changes are source-qualified
+  and covered by automated tests, including a real-serializer upgrade from
+  0.0.90.
+- **FATE:** shows "Not available on Gillions" until Gillions TEST admits the
+  2026.10.16 source.
+- **Private Hunt/submarine uploads:** Gillions currently refuses them for
+  2026.10.16 (reference data pending).
+
+Consent, permissions, pairing and settings are unchanged. Release record:
+[releases/0.0.91.json](releases/0.0.91.json).
 
 ## Testing90 contents and limits
 

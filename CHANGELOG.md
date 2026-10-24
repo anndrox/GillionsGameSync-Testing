@@ -1,5 +1,38 @@
 # Testing changelog
 
+## 0.0.91.0 — regression audit and accurate status (experimental prerelease)
+
+- Each feature row says what is actually wrong:
+  - an unsupported game version;
+  - Off, or Off on Gillions;
+  - Not available on Gillions;
+  - waiting for data;
+  - temporarily unavailable;
+  - ready.
+
+  Party Finder no longer always says Ready. Market no longer reports every case
+  as temporarily unavailable. A Gillions refusal of the FATE source no longer
+  says "Update required".
+- Only a request to Gillions can mark it unavailable. Refused authorization or
+  client versions are shown as such.
+- Item links no longer pass through the Party Finder admission when PF links
+  are off.
+- Fewer full configuration saves, a backoff on failed saves, and no per-frame
+  retries during loading screens.
+- Retainer gear, coverage and gil are attributed only to a stably active
+  retainer.
+- Private uploads take turns, and FATE checks no longer churn outside
+  supported areas.
+- Includes the native observation integrity work (unavailable data is
+  withheld, never sent as empty).
+- Native compatibility, consent, permissions, pairing, settings and payloads
+  are unchanged. The update from 0.0.90 preserves configuration (checked with
+  the real serializer).
+- No physical in-game testing for this version.
+
+Source: anndrox/GillionsGameSync `020cce9e6aaaa68f4225a370d3a52da62a363a8c`.
+Release record: [releases/0.0.91.json](releases/0.0.91.json).
+
 ## 0.0.90.0 — 7.57 hotfix compatibility (experimental prerelease)
 
 - Supports game 2026.10.16.0000.0000 with Dalamud 15.0.3.9 (ClientStructs
