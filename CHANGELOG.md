@@ -1,5 +1,18 @@
 # Testing changelog
 
+## 0.0.96.0: character-not-linked back-off (experimental prerelease)
+
+- If the character you are playing isn't linked to your Gillions TEST account,
+  Game Sync waits 5 minutes before uploading again instead of retrying
+  inventory every 10 seconds. A character change or login retries at once.
+- The one-time chat notice names the character and says to link it on Gillions
+  or play a linked one.
+- Everything else is unchanged. The update from 0.0.95 preserves configuration
+  (checked with the real serializer). No physical in-game testing.
+
+Source: anndrox/GillionsGameSync `2828741544134a3dee407a49b23316bb9036c36a`.
+Release record: [releases/0.0.96.json](releases/0.0.96.json).
+
 ## 0.0.95.0 — travel refusal back-off (experimental prerelease)
 
 - A travel upload refused by Gillions waits 5 minutes before trying again,
