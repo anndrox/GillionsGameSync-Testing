@@ -1,5 +1,16 @@
 # Testing changelog
 
+## 0.0.95.0 — travel refusal back-off (experimental prerelease)
+
+- A travel upload refused by Gillions waits 5 minutes before trying again,
+  instead of retrying every 15 seconds. A character change, login or travel
+  setting change retries at once.
+- Everything else is unchanged. The update from 0.0.94 preserves configuration
+  (checked with the real serializer). No physical in-game testing.
+
+Source: anndrox/GillionsGameSync `2630eaa0da547ba3612be3b78a870bba819cbafc`.
+Release record: [releases/0.0.95.json](releases/0.0.95.json).
+
 ## 0.0.94.0 — grouped inventory uploads (experimental prerelease)
 
 - During heavy gathering or crafting, inventory uploads are grouped: at most
