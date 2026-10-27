@@ -1,5 +1,18 @@
 # Testing changelog
 
+## 0.0.97.0: game version and local settings check-in (experimental prerelease)
+
+- The regular check-in includes the game version and the plugin's eight local
+  settings so Gillions can show them.
+- No re-pairing or new permission is needed. Reported values do not grant
+  consent or change a website choice, setting or default. No new capability
+  or data category beyond those settings is added.
+- Updating from 0.0.96 preserves configuration, pairing and consent, checked
+  with the published DLL and Dalamud's real serializer. No physical in-game testing.
+
+Source: anndrox/GillionsGameSync `7c58cd393fcbe015551caf07155301d9efbfe239`.
+Release record: [releases/0.0.97.json](releases/0.0.97.json).
+
 ## 0.0.96.0: character-not-linked back-off (experimental prerelease)
 
 - If the character you are playing isn't linked to your Gillions TEST account,

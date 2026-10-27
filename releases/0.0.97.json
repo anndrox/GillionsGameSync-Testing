@@ -1,0 +1,33 @@
+{
+  "channel": "Testing",
+  "product": "GillionsGameSyncTest",
+  "version": "0.0.97.0",
+  "tag": "v0.0.97-testing",
+  "sourceRepository": "https://github.com/anndrox/GillionsGameSync",
+  "sourceBranch": "main",
+  "sourceCommit": "7c58cd393fcbe015551caf07155301d9efbfe239",
+  "sourceUrl": "https://github.com/anndrox/GillionsGameSync/tree/7c58cd393fcbe015551caf07155301d9efbfe239",
+  "artifactUrl": "https://github.com/anndrox/GillionsGameSync-Testing/releases/download/v0.0.97-testing/GillionsGameSyncTesting-0.0.97.zip",
+  "zipSha256": "f3c243ce3c3bfc603a88fd8050e543f4340ab6cfea9587fee8f61ef1a3cbf40d",
+  "dllSha256": "4ce3582f31d197eb6dded39a15feb143350242efe0274483cc5d26d7f826fc63",
+  "feedSha256": "02468eb1f74516ab815d4d34582c7eda6878b9b9538c25f6eeab2a01b334fabb",
+  "embeddedManifestSha256": "99072ac93d533d8532a9f74fb99b5719af23c52caf1b325c6fc68fe83433e711",
+  "dalamudApiLevel": 15,
+  "runtime": {
+    "game": "2026.10.16.0000.0000",
+    "dalamud": "15.0.3.9",
+    "dalamudRevision": "30509c3b4fd00edd9a3d65b7bbf16433d84be03b",
+    "clientStructs": "7.57.0.9414",
+    "clientStructsRevision": "dd57986b8287e7c6ed9c27198f8c76cb04a81dfe"
+  },
+  "sourcePullRequests": [
+    "https://github.com/anndrox/GillionsGameSync/pull/29",
+    "https://github.com/anndrox/GillionsGameSync/pull/30"
+  ],
+  "independentReview": "independent review of exact PR #30 head b6f3cfd15fbb3082cb46901514553346eaa178e1: PASS; REVIEW.md in the owner handoff; merged tree equals reviewed tree",
+  "buildIdentity": "two clean package builds from the source commit in separate checkouts are byte-identical (ZIP and feed); SourceLink and source-control queries are off since PR #24",
+  "physicalFfxivAcceptance": {
+    "thisVersion": "none; automated source/serialization tests and exact published-predecessor configuration upgrade only"
+  },
+  "distributionTagMeaning": "The tag identifies distribution metadata; sourceCommit identifies the separately maintained plugin source."
+}

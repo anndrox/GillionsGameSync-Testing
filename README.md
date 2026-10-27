@@ -17,7 +17,7 @@ checksums and release assets—not a second source-code fork.
    `https://raw.githubusercontent.com/anndrox/GillionsGameSync-Testing/main/data/GillionsGameSyncTesting.json`
 
 3. Open the plugin installer, refresh repositories and install **Gillions Game
-   Sync Testing**. Confirm channel Testing, version 0.0.96.0 and `/gillionssynctest`.
+   Sync Testing**. Confirm channel Testing, version 0.0.97.0 and `/gillionssynctest`.
 4. Existing Testing users first disable/uninstall only the old Testing plugin,
    without reset/delete-configuration, then remove its old feed and install from
    the new one. Follow any normal installer reload prompt. Dalamud binds updates
