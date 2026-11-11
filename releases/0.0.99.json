@@ -1,0 +1,32 @@
+{
+  "channel": "Testing",
+  "product": "GillionsGameSyncTest",
+  "version": "0.0.99.0",
+  "tag": "v0.0.99-testing",
+  "sourceRepository": "https://github.com/anndrox/GillionsGameSync",
+  "sourceBranch": "main",
+  "sourceCommit": "cdd42b5d84b44886b62fabc4351b16d516e19b66",
+  "sourceUrl": "https://github.com/anndrox/GillionsGameSync/tree/cdd42b5d84b44886b62fabc4351b16d516e19b66",
+  "artifactUrl": "https://github.com/anndrox/GillionsGameSync-Testing/releases/download/v0.0.99-testing/GillionsGameSyncTesting-0.0.99.zip",
+  "zipSha256": "491cd54c16bab8dbfe22f55cf681031e6302def5284ea2b687e65a80e6c4e6ce",
+  "dllSha256": "493cfb50dfaa260b7836153761da839ecede39749314340a0418ab7b568b22bc",
+  "feedSha256": "b931834ec1b94fca21d195e7756418fb6c5be32fee52da5d4e71dfd2c08fde7e",
+  "embeddedManifestSha256": "caad4401b106f5294fc915d8e62b0ccc9fc6ebd975611cddb889c86b66be359d",
+  "dalamudApiLevel": 15,
+  "runtime": {
+    "game": "2026.11.03.0000.0000",
+    "dalamud": "15.0.4.0",
+    "dalamudRevision": "12e318c1936e449e5883faa61214eb2ced478349",
+    "clientStructs": "7.57.0.9480",
+    "clientStructsRevision": "80cb4a7b7e11a6702e2eb8839afd301a918c638e"
+  },
+  "sourcePullRequests": [
+    "https://github.com/anndrox/GillionsGameSync/pull/44"
+  ],
+  "independentReview": "MERGE-OK GillionsGameSync#44 a9d32d99c22451be86fce6afc66641e02d508d2f",
+  "buildIdentity": "Testing package built from the clean merged source with the pinned release-channel Dalamud archive",
+  "physicalFfxivAcceptance": {
+    "thisVersion": "pending owner TEST run"
+  },
+  "distributionTagMeaning": "The tag identifies the distribution repository. The sourceCommit identifies the separately maintained plugin source."
+}
