@@ -4,7 +4,9 @@ This is the feed for early builds of Gillions Game Sync, a Dalamud plugin that c
 
 ## What it shares
 
-Game Sync reads supported game data without changing it. Choose what to share on the Gillions TEST site if you have approved access. You can try the plugin window without pairing. For Stable, use [Game Sync settings on gillions.app](https://gillions.app/gillions-sync).
+Sharing through Game Sync is optional. You can try the plugin window without pairing. Testing pairs only with the Gillions TEST site, for testers with approved access. You choose what to share in Game Sync settings on the TEST site, and you can turn sharing off at any time. Some categories need a compatible game version or only update after you open the relevant window in game.
+
+**On when you pair (you can turn these off):**
 
 - Inventory, gear and currencies
 - Retainers and ventures
@@ -12,14 +14,19 @@ Game Sync reads supported game data without changing it. Choose what to share on
 - Achievements, collectibles, quests and character progress, including reputation and Shared FATE progress
 - Gil ledger
 - Hunt progress
-- Live FATEs
-- Travel and location
 - Submarine voyages
-- Observed market listings and recent sales
-- Character appearance
+- Market listings and recent sales you see
+
+Hunt progress, submarine voyages and market updates each have their own switch in Game Sync settings. The rest stop when you disconnect your device.
+
+**Off until you turn them on:**
+
+- Travel and location
+- Live FATEs
+- Character appearance (Testing only)
 - **Party Finder (optional):** Party Finder listings you see in game, including other players' public listings, are sent to Gillions, which passes them on to xivpf.com.
 
-Location and character appearance sharing are off unless you turn them on. The Beastmaster view stays on your device and does not upload data.
+Testing also has a Beastmaster view that stays on your device and does not upload data.
 
 ## Install
 
@@ -35,7 +42,7 @@ https://raw.githubusercontent.com/anndrox/GillionsGameSync-Testing/main/data/Gil
 
 ### Stable
 
-Install **Gillions Game Sync** and follow the [Stable pairing steps on gillions.app](https://gillions.app/gillions-sync). Disable Testing before turning Stable back on.
+Install **Gillions Game Sync** and follow the [Stable pairing steps](https://github.com/anndrox/GillionsGameSync#stable). Disable Testing before turning Stable back on.
 
 ```text
 https://raw.githubusercontent.com/anndrox/GillionsGameSync/main/data/GillionsGameSync.json
