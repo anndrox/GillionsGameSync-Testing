@@ -4,7 +4,9 @@ This is the feed for early builds of Gillions Game Sync, a Dalamud plugin that c
 
 ## What it shares
 
-Game Sync reads supported game data without changing it. Choose what to share on the Gillions TEST site if you have approved access. You can try the plugin window without pairing. For Stable, use [Game Sync settings on gillions.app](https://gillions.app/gillions-sync).
+Sharing through Game Sync is optional. Pairing turns on core sync. Disconnect your device to stop core sync, or change the optional sharing choices in Game Sync settings on gillions.app. Some categories need a compatible game version or only update after you open the relevant window in game.
+
+**On when you pair:**
 
 - Inventory, gear and currencies
 - Retainers and ventures
@@ -12,14 +14,19 @@ Game Sync reads supported game data without changing it. Choose what to share on
 - Achievements, collectibles, quests and character progress, including reputation and Shared FATE progress
 - Gil ledger
 - Hunt progress
-- Live FATEs
-- Travel and location
 - Submarine voyages
 - Observed market listings and recent sales
-- Character appearance
+
+Hunt progress, submarine voyages and market updates can be turned off in Game Sync settings.
+
+**Off until you turn them on:**
+
+- Travel and location
+- Live FATEs
+- Character appearance (Testing only)
 - **Party Finder (optional):** Party Finder listings you see in game, including other players' public listings, are sent to Gillions, which passes them on to xivpf.com.
 
-Location and character appearance sharing are off unless you turn them on. The Beastmaster view stays on your device and does not upload data.
+Testing also has a Beastmaster view that stays on your device and does not upload data.
 
 ## Install
 
