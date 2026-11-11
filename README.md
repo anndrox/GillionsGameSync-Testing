@@ -17,7 +17,7 @@ Game Sync reads supported game data without changing it. Choose what to share on
 - Submarine voyages
 - Observed market listings and recent sales
 - Character appearance
-- Public Party Finder listings (optional). Testing sends listings to Gillions TEST. Older Stable builds sent listings directly to [xivpf.com](https://xivpf.com), a third-party site.
+- **Party Finder (optional):** Party Finder listings you see in game, including other players' public listings, are sent to Gillions, which passes them on to xivpf.com.
 
 Location and character appearance sharing are off unless you turn them on. The Beastmaster view stays on your device and does not upload data.
 
