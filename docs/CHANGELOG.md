@@ -11,7 +11,7 @@
   with the published DLL and Dalamud's real serializer. No physical in-game testing.
 
 Source: anndrox/GillionsGameSync `7c58cd393fcbe015551caf07155301d9efbfe239`.
-Release record: [releases/0.0.97.json](releases/0.0.97.json).
+Release record: [releases/0.0.97.json](../releases/0.0.97.json).
 
 ## 0.0.96.0: character-not-linked back-off (experimental prerelease)
 
@@ -24,7 +24,7 @@ Release record: [releases/0.0.97.json](releases/0.0.97.json).
   (checked with the real serializer). No physical in-game testing.
 
 Source: anndrox/GillionsGameSync `2828741544134a3dee407a49b23316bb9036c36a`.
-Release record: [releases/0.0.96.json](releases/0.0.96.json).
+Release record: [releases/0.0.96.json](../releases/0.0.96.json).
 
 ## 0.0.95.0 — travel refusal back-off (experimental prerelease)
 
@@ -35,7 +35,7 @@ Release record: [releases/0.0.96.json](releases/0.0.96.json).
   (checked with the real serializer). No physical in-game testing.
 
 Source: anndrox/GillionsGameSync `2630eaa0da547ba3612be3b78a870bba819cbafc`.
-Release record: [releases/0.0.95.json](releases/0.0.95.json).
+Release record: [releases/0.0.95.json](../releases/0.0.95.json).
 
 ## 0.0.94.0 — grouped inventory uploads (experimental prerelease)
 
@@ -48,7 +48,7 @@ Release record: [releases/0.0.95.json](releases/0.0.95.json).
   (checked with the real serializer). No physical in-game testing.
 
 Source: anndrox/GillionsGameSync `f1866ecefbdc56b87f2aca29b567b9c95996a57b`.
-Release record: [releases/0.0.94.json](releases/0.0.94.json).
+Release record: [releases/0.0.94.json](../releases/0.0.94.json).
 
 ## 0.0.93.0 — quieter Retainer uploads (experimental prerelease)
 
@@ -60,7 +60,7 @@ Release record: [releases/0.0.94.json](releases/0.0.94.json).
   (checked with the real serializer). No physical in-game testing.
 
 Source: anndrox/GillionsGameSync `032544a132aa2bc20fa3cc1f0fab17bb3e3d40ab`.
-Release record: [releases/0.0.93.json](releases/0.0.93.json).
+Release record: [releases/0.0.93.json](../releases/0.0.93.json).
 
 ## 0.0.92.0 — Gillions refusals named (experimental prerelease)
 
@@ -77,7 +77,7 @@ Release record: [releases/0.0.93.json](releases/0.0.93.json).
   (checked with the real serializer). No physical in-game testing.
 
 Source: anndrox/GillionsGameSync `ac5920e6b72ec7d016fe2680bd54f890485176da`.
-Release record: [releases/0.0.92.json](releases/0.0.92.json).
+Release record: [releases/0.0.92.json](../releases/0.0.92.json).
 
 ## 0.0.91.0 — regression audit and accurate status (experimental prerelease)
 
@@ -110,7 +110,7 @@ Release record: [releases/0.0.92.json](releases/0.0.92.json).
 - No physical in-game testing for this version.
 
 Source: anndrox/GillionsGameSync `020cce9e6aaaa68f4225a370d3a52da62a363a8c`.
-Release record: [releases/0.0.91.json](releases/0.0.91.json).
+Release record: [releases/0.0.91.json](../releases/0.0.91.json).
 
 ## 0.0.90.0 — 7.57 hotfix compatibility (experimental prerelease)
 
@@ -127,7 +127,7 @@ Release record: [releases/0.0.91.json](releases/0.0.91.json).
   from 0.0.88 preserves configuration (actual-serializer check).
 
 Source: anndrox/GillionsGameSync `1aeafe68190e052d72129fa7a68a4a9a1cc5a0d9`.
-Release record: [releases/0.0.90.json](releases/0.0.90.json).
+Release record: [releases/0.0.90.json](../releases/0.0.90.json).
 
 ## 0.0.88.0 — experimental prerelease
 
@@ -148,6 +148,6 @@ Source/package, manifest, upgrade and independent-review checks passed. Physical
 FFXIV installation/update and corrected shared-UI acceptance remain owner checks.
 Existing controller and live FC submarine validation limitations remain.
 
-See [installation and safe switching](README.md) and the immutable
-[release record](releases/0.0.88.json). Historical Testing releases remain in the
+See [installation and safe switching](testing-guide.md) and the immutable
+[release record](../releases/0.0.88.json). Historical Testing releases remain in the
 [original source repository](https://github.com/anndrox/GillionsGameSync/releases).
