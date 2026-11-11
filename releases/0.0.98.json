@@ -1,0 +1,32 @@
+{
+  "channel": "Testing",
+  "product": "GillionsGameSyncTest",
+  "version": "0.0.98.0",
+  "tag": "v0.0.98-testing",
+  "sourceRepository": "https://github.com/anndrox/GillionsGameSync",
+  "sourceBranch": "main",
+  "sourceCommit": "c6ac043f89d3eaf7ca0ad931a49b26298e1ecc78",
+  "sourceUrl": "https://github.com/anndrox/GillionsGameSync/tree/c6ac043f89d3eaf7ca0ad931a49b26298e1ecc78",
+  "artifactUrl": "https://github.com/anndrox/GillionsGameSync-Testing/releases/download/v0.0.98-testing/GillionsGameSyncTesting-0.0.98.zip",
+  "zipSha256": "526b096f18d886cc9bb99c85dfa0e588089fa6095363a2852a349bbf360b9259",
+  "dllSha256": "6130f8261d2a1ea448f96aeda250c0c455287d85c910d18e45edaa91fe66bbfd",
+  "feedSha256": "4da56fd4e428644c21c4dedf7fb8928a7d0be3df360e653787ae2a975b18d1d8",
+  "embeddedManifestSha256": "8259ec8df64f2a51df7aa5e20bdd697267a104a13829da2b6560842ded95aa77",
+  "dalamudApiLevel": 15,
+  "runtime": {
+    "game": "2026.11.03.0000.0000",
+    "dalamud": "15.0.4.0",
+    "dalamudRevision": "12e318c1936e449e5883faa61214eb2ced478349",
+    "clientStructs": "7.57.0.9480",
+    "clientStructsRevision": "80cb4a7b7e11a6702e2eb8839afd301a918c638e"
+  },
+  "sourcePullRequests": [
+    "https://github.com/anndrox/GillionsGameSync/pull/41"
+  ],
+  "independentReview": "independent code and runtime review of PR #41 head f023ef9c40f71ec748a50c08e7d9981e7859fe20: PASS; reviewer verdict in PARTNER_INBOX.md; reviewer-requested UTF-8 corrections only in ea52c3de6adefda1be2b739245c11f48f2124f87; merged tree equals corrected PR tree",
+  "buildIdentity": "two clean package builds from the source commit in separate checkouts are byte-identical (ZIP, DLL, feed and embedded manifest); SourceLink and source-control queries are off since PR #24",
+  "physicalFfxivAcceptance": {
+    "thisVersion": "pending; automated source and serialization tests only; no in-game run"
+  },
+  "distributionTagMeaning": "The tag identifies distribution metadata; sourceCommit identifies the separately maintained plugin source."
+}
